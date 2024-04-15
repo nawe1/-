@@ -48,44 +48,44 @@ th.item3 { width:20%; }
 				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-				    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-				   
+				    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>   
 				  </ol>
-				  <div class="carousel-inner">
-				    <div class="carousel-item active"  style="max-width: 1100px; max-height: 1400px;">
-				      <img src="${path0 }/imgs/eat.png" class="d-block w-100" alt="...">
-				      <div class="carousel-caption d-none d-md-block">
-				        <h5>대전갈비집</h5>
-				        <p><a href="https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EA%B0%88%EB%B9%84%EC%A7%91?c=16.00,0,0,0,dh" target="_blank">위치</a></p>
-				      </div>
-				    </div>
-				    <div class="carousel-item">
-				       <div class="carousel-item active"  style="max-width: 1100px; max-height: 1400px;">
-				       <img src="${path0 }/imgs/eat2.png" class="d-block w-100" alt="...">
-				      <div class="carousel-caption d-none d-md-block">
-				        <h5>토박이</h5>
-				         <p><a href="https://map.naver.com/p/entry/place/13571373?c=15.00,0,0,0,dh" target="_blank">위치</a></p>
-				      </div>
+				 <div class="card-deck">
+				  <div class="card">
+				    <img src="${path0 }/imgs/eat3.png" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">한밭 칼국수</h5>
+				      <p class="card-text">대전 중구 은행동에 위치한 한밭 칼국수는 40년 전통을 자랑하는 칼국수 전문점입니다. 소박한 외관과는 달리 숨겨진 맛집으로 알려져 있으며, 푸짐하고 저렴한 칼국수로 유명합니다.</p>
+				       <p><a href="https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%20%ED%95%9C%EB%B0%AD%20%EC%B9%BC%EA%B5%AD%EC%88%98?c=15.00,0,0,0,dh" target="_blank">위치</a></p>
 				    </div>
 				  </div>
-				  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </button>
-				  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </button>
-				</div>
+				  <div class="card">
+				    <img src="${path0 }/imgs/eat.png" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">대전갈비집</h5>
+				      <p class="card-text">한국 전통 갈비 요리를 전문으로 하는 레스토랑으로, 신선한 재료와 특별한 양념으로 만든 갈비 요리로 유명합니다.</p>
+				   	   <p><a href="https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%EA%B0%88%EB%B9%84%EC%A7%91?c=16.00,0,0,0,dh" target="_blank">위치</a></p>
+				    </div>
+				  </div>
+				  <div class="card">
+				    <img src="${path0 }/imgs/eat2.png" class="card-img-top" alt="...">
+				    <div class="card-body">
+				      <h5 class="card-title">토박이</h5>
+				      <p class="card-text">은행동 토박이는 대전 중구 은행동에 위치한 오래된 식당으로, 지역에서 사랑받는 닭도리탕으로 유명한 곳입니다. 조용한 골목에 위치해 있어 처음 방문하는 사람들은 위치를 찾기 어려울 수 있습니다.</p>
+				       <p><a href="https://map.naver.com/p/entry/place/13571373?c=15.00,0,0,0,dh" target="_blank">위치</a></p>
+				    </div>
+			  </div>
 			</div>
+			</div>
+			</div>
+			</div>
+			</section>
+			
 		</div>
 		</div>
-		</section>
-		</div>
-		</div>
-	
-	</section>
+</section>
 </div>
+
 <div id="footer">
 	<%@ include file="/footer.jsp" %>
 </div>

@@ -49,6 +49,8 @@
 				<a href="" class="dp1">이용안내</a>
 				<ul class="sub_menu">
 					<li><a href="${hpath }/GetTrafficList.do">교통편 안내</a></li>
+					<li><a href="${hpath }/tour/bus.jsp">버스 안내</a></li>
+					<li><a href="${hpath }/tour/subway.jsp">지하철 안내</a></li>
 					<li><a href="${hpath }/tour/building.jsp">주요 빌딩</a></li>
 					<li><a href="${hpath }/tour/rest.jsp">맛집 안내</a></li>
 					<li><a href="${hpath }/tour/lodg.jsp">숙박 시설 안내</a></li>
