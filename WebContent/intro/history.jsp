@@ -65,37 +65,33 @@ border-radius:45px; text-align:center; color:#fff; }
 			<h3 class="page_title">연혁</h3>
 			<div class="jumbotron" style="padding:1rem;">
 				<p>
-					<span>금천현 동면 가리산리</span> <i class="fas fa-arrow-circle-right fa-fw"></i> 
-					<span>시흥현 동면 가리봉리</span> <i class="fas fa-arrow-circle-right fa-fw"></i> 
-					<span>시흥군 동면 가리봉리</span> <i class="fas fa-arrow-circle-right fa-fw"></i>
-					<span>서울 영등포구 가리봉동</span> <i class="fas fa-arrow-circle-right fa-fw"></i>
-					<span>서울 구로구 가리봉동</span> <i class="fas fa-arrow-circle-right fa-fw"></i>
-					<span>서울 금천구 가산동</span>
+	
 				</p>
 			</div>
 			<div class="loadmap">
 				<ul>
 					<li>
-						<div class="his">1. 금천현 동면 가리산리(衿川縣 東面 加里山里) 으로 관할하는 현으로 금천현에 배속됨</div>
-						<div class="circle">1759</div>
+						<div class="his">1.대전 은행동이 형성되어 대전의 상업 및 경제 중심지로 발전함.</div>
+						<div class="circle">1970년대</div>
 					</li>
 					<li>
-						<div class="his">1. 시흥현 동면 가리봉리(始興縣 東面 加里峰里) 으로 시흥현으로 관할현이 변경됨<br>
-							2. 시흥군 동면 가리봉리(始興郡 東面 加里峰里) 으로 시흥현이 시흥군으로 승격됨
+						<div class="his">1. 대전 KBS 방송국이 은행동에 설립되며, 대전의 방송 산업을 지원함.<br>
+							
 						</div>
-						<div class="circle">1895</div>
+						<div class="circle">1990년대</div>
 					</li>
 					<li>
-						<div class="his">1. 서울특별시 영등포구 가리봉동(永登浦區 加里峰洞) 으로 서울특별시로 편입됨</div>
-						<div class="circle">1963</div>
+						<div class="his">1. 대전 문화예술회관이 은행동에 개관되어 문화 예술 활동의 중심지로 자리 잡음.</div>
+						<div class="circle">2000년대</div>
+					</li>
+					
+					<li>
+						<div class="his">1. 대전 문화원이 오픈되어 은행동에서 다양한 문화 프로그램을 제공하며 지역 주민 및 방문객들에게 인기를 끌었음.</div>
+						<div class="circle">2010년대</div>
 					</li>
 					<li>
-						<div class="his">1. 서울특별시 구로구 가리봉동(九老區 加里峰洞) 으로 관할구청이 변경됨</div>
-						<div class="circle">1980</div>
-					</li>
-					<li>
-						<div class="his">1. 서울특별시 구로구 가리봉동(九老區 加里峰洞) 과 서울특별시 금천구 가산동(衿川區 加山洞) 으로 분동</div>
-						<div class="circle">1995</div>
+						<div class="his">1. 대전 역사문화공간 개관: 대전의 역사와 문화를 소개하는 새로운 역사문화공간이 은행동에 개관되었습니다. 이를 통해 지역의 역사와 문화를 보존하고 홍보하는 역할을 하게 되었습니다.</div>
+						<div class="circle">2020년대</div>
 					</li>
 				</ul>
 			</div>

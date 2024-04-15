@@ -31,7 +31,7 @@
 		<br><br>
 		<div id="copyright">
 			<p class="addr">(우)	35011 대전광역시 중구 산성로 63 문화동, 대전 중구소개, 대표전화 : 042-253-4404(120 다산콜센터로연결)</p>
-			<p class="copy">COPYRIGHT(C) DAEJIN JUNG_GO INTRO. ALL RIGHTS RESERVED.</p>
+			<p class="copy">COPYRIGHT(C) DAEJUN JUNG_GO INTRO. ALL RIGHTS RESERVED.</p>
 		</div>
 	</div> 
 </footer>

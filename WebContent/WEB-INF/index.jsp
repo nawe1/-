@@ -27,13 +27,13 @@
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img src="${path0 }/images/vs4.png" class="d-block w-100" alt="...">
+			      <img src="${path0 }/imgs/tower01.png" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="${path0 }/images/vs5.png" class="d-block w-100" alt="...">
+			      <img src="${path0 }/imgs/bread.png" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="${path0 }/images/vs6.png" class="d-block w-100" alt="...">
+			      <img src="${path0 }/imgs/sky.png" class="d-block w-100" alt="...">
 			    </div>
 			  </div>
 			 <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
@@ -48,24 +48,7 @@
 		</figure>
 		<h3 class="page_title"></h3>
 	</section>
-	<section class="page" id="page2">
-		<div style="width:1400px; margin:0 auto;">	
-			<h3 class="page_title">공지사항</h3>
-			
-		</div>	
-	</section>
-	<section class="page" id="page3">
-		<div style="width:1400px; margin:0 auto;">	
-			<h3 class="page_title">묻고 답하기</h3>
-			
-		</div>	
-	</section>
-	<section class="page" id="page4">
-		<div style="width:1400px; margin:0 auto;">	
-			<h3 class="page_title">Hot Place</h3>
-			
-		</div>	
-	</section>
+	
 </div>
 <div id="footer">
 	<%@ include file="/footer.jsp" %>

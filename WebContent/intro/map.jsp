@@ -55,9 +55,12 @@ th.item3 { width:20%; }
 			</div>
 			<hr>
 			<h3 class="page_title">오시는 길</h3>
-			<div class="jumbotron">
+			<div style="padding-bottom:3rem">
 				<p>
-	
+					<div class="card" style="position: margin-left: 470px; absolute; left: 410px; top: 0px; width: 40%; touch-action: none;">
+  					<img src="${path0 }/imgs/map.png"class="rounded" alt="은행동지도">
+					</div>
+					
 				</p>
 			</div>
 			<div class="">

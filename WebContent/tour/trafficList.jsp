@@ -47,6 +47,55 @@ th.item4 { width:15%; }
 		<div style="width:1400px; margin:0 auto;">
 			<h3 class="page_title">교통편 안내</h3>
 			<hr>
+			<div id="contents">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				   
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active"  style="max-width: 1100px; max-height: 1400px;">
+				      <img src="${path0 }/imgs/bus.png" class="d-block w-100" alt="...">
+				      <img src="${path0 }/imgs/busmap.png" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <div class="carousel-caption d-none d-md-block">
+						    <h5 style="color: black;">20번 버스</h5>
+						    <p style="color: black;">
+						        <strong>노선:</strong>대전역동광장 - 대동역 - 대전역 - 중앙로역 - 서대전네거리역 - 도마시장 - 정림삼거리 - 가수원사거리 - 가수원역 - 고릿골구름다리 - 흑석네거리 - 장태산자연휴양림 - 장태산종점
+						    </p>
+						</div>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				       <div class="carousel-item active"  style="max-width: 1100px; max-height: 1400px;">
+				       <img src="${path0 }/imgs/subway.png" class="d-block w-100" alt="...">
+				       <img src="${path0 }/imgs/subway1.png" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+						    <h5 style="color: black;">대전 1호선 지하철</h5>
+						    <p style="color: black;">
+						    </p>
+						</div>
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </button>
+				</div>
+			</div>
+		</div>
+		</div>
+		</section>
+		</div>
+		</div>
+	
+	</section>
+</div>
 			<div class="tab_box">
 				<c:forEach var="vo" items="${voList }" varStatus="status">
 				<a href="#${vo.no }">${vo.no }</a>&nbsp;&nbsp;&nbsp;
@@ -65,10 +114,10 @@ th.item4 { width:15%; }
 					<li class="tour_image">
 						<figure class="fg">
 							<c:if test="${dto.ttype.equals('버스') }">
-							<img src="${path0 }/images/bus/${dto.no }_1.jpg" alt="${dto.no } 번 버스 사진" />
+							<img src="${path0 }/imgs/b.png" alt="${dto.no } 20번 버스 사진" />
 							</c:if>
 							<c:if test="${dto.ttype.equals('지하철') }">
-							<img src="${path0 }/images/subway/${dto.no }_1.jpg" alt="${dto.no } 번 버스 사진" />
+							<img src="${path0 }/imgs/subway/${dto.no }.png" alt="${dto.no } 번 버스 사진" />
 							</c:if>
 						</figure>
 					</li>

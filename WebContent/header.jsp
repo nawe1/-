@@ -13,7 +13,7 @@
 		<h2 style="text-align:center;">${sname } 님 환영합니다.</h2>
 		</c:if>
 		<c:if test="${empty sid }">
-		<h2 style="text-align:center;">모든 서비스를 활용시 로그인 요망</h2>
+		<h2 style="text-align:center;">대전 중구를 소개합니다.</h2>
 		</c:if>
 	</div>
 	<nav id="gnb">
@@ -50,7 +50,6 @@
 				<ul class="sub_menu">
 					<li><a href="${hpath }/GetTrafficList.do">교통편 안내</a></li>
 					<li><a href="${hpath }/tour/building.jsp">주요 빌딩</a></li>
-					<li><a href="${hpath }/tour/association.jsp">주요 협회 단체</a></li>
 					<li><a href="${hpath }/tour/rest.jsp">맛집 안내</a></li>
 					<li><a href="${hpath }/tour/lodg.jsp">숙박 시설 안내</a></li>
 				</ul>

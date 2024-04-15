@@ -57,7 +57,13 @@ th.item3 { width:20%; }
 			<h3 class="page_title">지역 특징 및 시설안내</h3>
 			<div class="jumbotron">
 				<p>
-					
+					<strong>위치</strong>: 대전광역시의 중심부에 위치<br>
+					<strong>인구</strong>: 222,919명 (2024년 1월 기준)<br><br>
+					<strong>주요 시설 및 특징</strong> <br>
+					<strong>자연환경</strong>: 대전의 유일한 공원지대와 대전천이 특징  <br>
+					<strong>과학기술 메카</strong>: 대전은 KAIST, ETRI, KARI, KAERI 등의 과학기술 연구기관이 위치한 한국 과학기술의 중심지입니다. <br>
+					<strong>행정중심</strong>: 1990년대 후반 서울에서 대전으로 일부 정부기관이 이전하면서 행정중심지로 발전했고 둔산지구에는 정부대전청사가 위치합니다!<br>
+					대전 중구는 자연과 과학기술, 행정의 중심이 어우러진 독특한 매력을 가진 지역입니다. 🏢🌲 대전 중구에 대해 더 알고 싶으시다면, 추가 정보를 찾아보시거나 직접 방문해 보시는 것도 좋을 것 같아요! 😊
 				</p>
 			</div>
 			<div class="">
