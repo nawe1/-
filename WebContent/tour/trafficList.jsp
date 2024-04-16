@@ -98,6 +98,7 @@ th.item4 { width:15%; }
 				<c:if test="${sid.equals('admin') }">
 				<div class="btn-group">
 				  <a href="${path0 }/tour/tIns.jsp" class="btn btn-secondary">교통편 등록</a>
+				  <a href="${path0 }/GetTrafficList.do" class="btn btn-secondary">교통편 목록</a>
 				</div>
 				</c:if>
 			</div>

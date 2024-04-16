@@ -75,7 +75,6 @@ th.item3 { width:20%; }
 	            <div class="card-body">
 	                <!-- 버스 지도 이미지 -->
 	                  <img src="${path0 }/imgs/subway1.png" class="d-block mx-auto" style="max-width: 5000px;" alt="버스 지도">
-                <!-- 'd-block mx-auto' 클래스는 이미지를 가운데 정렬합니다. -->
 	            </div>
 	        </div>
 	    </div>

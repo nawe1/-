@@ -31,4 +31,13 @@ public class GetTrafficListCtrl extends HttpServlet {
 		RequestDispatcher view = request.getRequestDispatcher("/tour/trafficList.jsp");
 		view.forward(request, response);
 	}
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		TrafficDAO dao = new TrafficDAO();
+		List<Traffic> tList = dao.getTrafficList();
+		List<TrafficVO> voList = dao.getTab();
+		request.setAttribute("tList", tList);
+		request.setAttribute("voList", voList);
+		RequestDispatcher view = request.getRequestDispatcher("/tour/trafficList.jsp");
+		view.forward(request, response);
+	}
 }
