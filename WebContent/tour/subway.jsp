@@ -33,7 +33,7 @@ th.item3 { width:20%; }
 			  <ol class="breadcrumb">
 			    <li class="breadcrumb-item"><a href="#">Home</a></li>
 			    <li class="breadcrumb-item"><a href="#">이용안내</a></li>
-			    <li class="breadcrumb-item active" aria-current="page">교통편 안내</li>
+			    <li class="breadcrumb-item active" aria-current="page">지하철 안내</li>
 			  </ol>
 			</nav>
 			<hr>		

@@ -52,10 +52,15 @@ desc traffic;
 alter table traffic modify route varchar2(1000);
 
 insert into traffic values (tseq.nextval, '버스', '금천03', '가산디지털단지역 - 마리오아울렛 - 제일모직아울렛 - 구립가산도서관.두산위브아파트 - 가산동주민센터.금천글로벌센터 - 독산고개 - 구로디지털단지역', '서울특별시 금천구 마을버스로 대상운수에서 운행하는 마을버스 노선으로 왕복 운행거리는 7.2km이다. 1980년에 배치된 노선으로 현재까지 그 경로가 바뀐 적이 없는 귀한 노선이다.', 'https://map.naver.com/p/bus/bus-route/%EA%B8%88%EC%B2%9C03/bus-route/1528?c=15.00,0,0,0,dh');
-insert into traffic values (tseq.nextval, '버스', '21', '광명돔경륜장 - 광명6동삼거리 - 현진월드아파트 - 헵시바LPG충전소 - 광명사거리역.광명전통시장 - 광명시청.광명시민회관 - 광덕초등학교[단독] - 도덕파크타운[단독] - 광명경찰서 - 디지털3단지사거리 - 가산디지털단지역 - 디지털운동장 - 디지털3단지사거리', '경기도 광명시 시내버스로 화영운수에서 운행하는 시내버스 노선으로 왕복 운행거리는 15.4km이다.', 'https://map.naver.com/p/bus/bus-route/-/bus-route/12506?c=14.00,0,0,0,dh');
+insert into traffic values (tseq.nextval, '버스', '20', '대전역동광장 - 대동역 - 대전역 - 중앙로역 - 서대전네거리역 - 도마시장 - 정림삼거리 - 가수원사거리 - 가수원역 - 고릿골구름다리 - 흑석네거리 - 장태산자연휴양림 - 장태산종점', '2018년 부터 다시 버스가 20번으로 변경되고 운행하기 시작했다.', 'https://map.naver.com/p/bus/bus-station/-/bus-route/31016?c=11.76,0,0,0,dh');
+insert into traffic values (tseq.nextval, '지하철', '1', '편암 - 신흥 - 대동 - 대전 -중앙로 -중구청 -서대전네거리 - 오룡 - 용두 - 용문 - 탄방 - 시청 - 정부청사 - 갈마 - 월평 - 갑천 -유성온천 - 구암 - 현충원 -월드컵 경기장 - 노은 -지족 - 반석', '대전광역시에서 개통된 첫 번째 도시철도 노선이다.충청도에서 수도권 전철 1호선 천안시 구간 이후 2번째로 생긴 전동열차 운행 노선이다.', 'https://map.naver.com/p/subway/3000/-/-/-?c=11.00,0,0,0,dh');
 
 select * from traffic;
 
 commit;
 
 select * from guide;
+
+select * from traffic;
+
+

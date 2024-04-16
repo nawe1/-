@@ -43,7 +43,7 @@ th.item3 { width:20%; }
 			<nav aria-label="breadcrumb d-flex justify-content-between">
 			</nav>
 			<hr>
-			<h3 class="page_title">숙박 시설 안내</h3>
+			<h3 class="page_title">주요 빌딩 안내</h3>
 			<div id="contents">
 				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
