@@ -58,7 +58,7 @@ th.item3 { width:20%; }
 			<div style="padding-bottom:3rem">
 				<p>
 					<div class="card" style="position: margin-left: 470px; absolute; left: 410px; top: 0px; width: 40%; touch-action: none;">
-  					<img src="${path0 }/imgs/map.png"class="rounded" alt="은행동지도">
+  					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102924.60329827818!2d127.33086691096794!3d36.278492376092984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654e59c4b2a5ab%3A0xe706b22af1a3d124!2z64yA7KCE6rSR7Jet7IucIOykkeq1rA!5e0!3m2!1sko!2skr!4v1713329567777!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 					
 				</p>

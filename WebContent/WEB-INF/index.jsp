@@ -12,8 +12,10 @@
 <style>
 .container { width:1400px; }
 .page { clear:both; height:100vh; }
+.page2{clear:both; height:50vh; }
+.page3{clear:both; height:80vh; }
 #page1 { background-color:#ececec; height:calc(100vh - 158px); }
-#page2 { background-color:#42bcf5; }
+#page2 { background-color:#fff; }
 .page_title { font-size:36px; padding-top:2em; text-align:center; }
 </style>
 </head>
@@ -27,13 +29,13 @@
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			      <img src="${path0 }/imgs/tower01.png" class="d-block w-100" alt="...">
+			      <img src="${path0 }/imgs/main_imgs01.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="${path0 }/imgs/bread.png" class="d-block w-100" alt="...">
+			      <img src="${path0 }/imgs/main_img02.jpg" class="d-block w-100" alt="...">
 			    </div>
 			    <div class="carousel-item">
-			      <img src="${path0 }/imgs/sky.png" class="d-block w-100" alt="...">
+			      <img src="${path0 }/imgs/main_img03.jpg" class="d-block w-100" alt="...">
 			    </div>
 			  </div>
 			 <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
@@ -48,7 +50,63 @@
 		</figure>
 		<h3 class="page_title"></h3>
 	</section>
-	
+	<section class="page3" id="page2">
+		<div style="width:1000px; margin:0 auto;">	
+			<h3 class="page_title" style="color:red">Hot Place</h3>
+				<img src="${path0 }/imgs/ss.png" class="d-block w-100" alt="..." >
+				<a href="https://www.sungsimdang.co.kr/" target="_blank">더보기</a>
+		</div>		
+	</section>
+	<section class="page2" id="page3">
+		<div style="width:800px; margin:0 auto;">	
+			<h3 class="page_title">대전 여행 BEST5!</h3><a href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=589ce543-342b-45f8-90c3-87364515ffca&con_type=11200" target="_blank">더보기</a>
+			<img src="${path0 }/imgs/eat04.jpg" class="d-block w-100" alt="...">
+			
+			</div>	
+	</section>
+	<section class="page" id="page4">
+		<div style="width:1400px; margin:0 auto;">	
+			<h3 class="page_title">최근 공지사항</h3>
+			<div class="right_item" style="text-align:right;padding-bottom:12px;">
+				<a href="${hpath }/NotiList.do" title="더보기" class="more">
+					<i class="fas fa-plus fa-fw"></i> 더보기
+				</a>
+			</div>
+			<table class="table" id="tb3">
+				<thead>
+					<tr>
+						<th class="item1">번호</th>
+						<th class="item2">제목</th>
+						<th class="item3">작성일</th>
+						<th class="item4">조회수</th>
+					</tr>
+				</thead>
+				<tbody>
+					<c:if test="${not empty latestNotiList }">
+						<c:forEach var="dto" items="${latestNotiList }">
+						<tr>
+							<td>${dto.no }</td>
+							<td>
+								<c:if test="${empty sid }">
+								<strong>${dto.title }</strong>
+								</c:if>
+								<c:if test="${not empty sid }">
+								<a href="${path0 }/GetNotice.do?no=${dto.no }">${dto.title }</a>
+								</c:if>
+							</td>
+							<td>${dto.resdate }</td><td>${dto.visited }</td>
+						</tr>
+						</c:forEach>
+					</c:if>
+					<c:if test="${empty latestNotiList }">
+						<tr>
+							<td colspan="4"><strong>공지사항이 존재하지 않습니다.</strong></td>
+						</tr>
+					</c:if>
+				</tbody>
+			</table>
+		</div>
+	</section>
 </div>
 <div id="footer">
 	<%@ include file="/footer.jsp" %>

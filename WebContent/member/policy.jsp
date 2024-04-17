@@ -23,6 +23,13 @@
 </div>
 <div id="contents">
 	<section class="page" id="page1">
+		<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+		    <li class="breadcrumb-item"><a href="#">Home</a></li>
+		    <li class="breadcrumb-item"><a href="#">회원</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">개인정보처리방침</li>
+		  </ol>
+		</nav>
 		<c:if test="${not empty msg}">
 		<div style="width:1400px; margin:0 auto;">${msg }</div>
 		</c:if>
